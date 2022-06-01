@@ -1,0 +1,9 @@
+{
+  "name": "Best in town Troop#6789",
+  "short_name": "Troop#6789",
+  "start_url": "./?utm_source+pwa",
+  "theme_color": "rgb(96, 145, 96)",
+  "scope": "./",
+  "display": "standalone",
+  "description": "This app lets you see the activities of the troop#6789"
+}
