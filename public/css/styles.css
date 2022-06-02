@@ -92,7 +92,7 @@ section h2 a:hover {
   position: relative;
 }
 .animation {
-  height: 50vh;
+  /* height: 50vh; */
   /* margin-bottom: 150px; */
   /* background-color: pink; */
   /* position: absolute;
@@ -223,9 +223,44 @@ footer a:hover {
     text-align: center;
     color: #fff;
   }
+  #home .animation {
+    height: 50vh;
+  }
 }
 @media screen and (min-width: 900px) {
   h1 {
     font-size: 4rem;
   }
+}
+.calendar-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.calendar-container {
+  margin: 2rem 0;
+}
+#root
+  > div
+  > div
+  > div.calendar-container
+  > div
+  > div.react-calendar__navigation
+  > button.react-calendar__navigation__label
+  > span {
+  font-size: 1.5rem;
+  color: green;
+}
+
+#root
+  > div
+  > div
+  > div.calendar-container
+  > div
+  > div.react-calendar__viewContainer
+  > div
+  > div
+  > button.react-calendar__tile.react-calendar__tile--now.react-calendar__tile--hasActive.react-calendar__tile--range.react-calendar__tile--rangeStart.react-calendar__tile--rangeEnd.react-calendar__tile--rangeBothEnds.react-calendar__year-view__months__month {
+  background-color: lightblue;
 }
